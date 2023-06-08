@@ -1,0 +1,26 @@
+/* Archivo app.css */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  /* Agrega aquí los demás estilos de fuente (italic, bold, etc.) si los necesitas */
+}
+
+/* Estilos globales */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos específicos de tu aplicación */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  /* Otros estilos personalizados para el cuerpo de la aplicación */
+}
+
+/* Otros estilos personalizados para tus componentes específicos */
